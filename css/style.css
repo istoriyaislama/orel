@@ -38,7 +38,7 @@ header .logo, footer .block .logo{
 
 header nav{
     float: right;
-    width: 50%;
+    width: 60%;
 }
 header nav ul{
     list-style: none;
@@ -47,7 +47,7 @@ header nav ul{
 }
 header nav ul li{
     display: inline-block;
-    margin-left: 5px;
+    margin-left: 30px;
 }
 header nav ul li a{
     color: #fff;
