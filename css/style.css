@@ -19,7 +19,7 @@ img{
 }
 header{
     padding: 40px 0;
-    z-index: 2;
+    z-index: 3;
     position: relative;
 }
 .wrapper{
@@ -47,6 +47,7 @@ header nav ul{
 }
 header nav ul li{
     display: inline-block;
+    margin-left: 5px;
 }
 header nav ul li a{
     color: #fff;
@@ -123,6 +124,7 @@ header nav ul li.btn a:hover{
     position: absolute;
     top: -110px;
     right: 0;
+    z-index: 2;
     left: 340px;
 }
 
@@ -343,4 +345,9 @@ footer .block .logop{
 .liner .progi .block .btn:hover{
     cursor: pointer;
     transform: scale(1.1);
+}
+video{
+    border-radius: 20px;
+	border: 2px solid  rgba(0,5,128,1);
+    margin-top: 20px;
 }
